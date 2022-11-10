@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex 13</title>
+</head>
+<body>
+    <form method="post">
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name">
+        <fieldset>
+            <legend>Age</legend>
+            <label for="<18">18</label>
+            <input type="radio" name="age" id="<18" value="<18">
+            <label for="19-35">19-35</label>
+            <input type="radio" name="age" id="19-35" value="19-35">
+            <label for="36-48">36-48</label>
+            <input type="radio" name="age" id="36-48" value="36-48">
+            <label for=">49">>49</label>
+            <input type="radio" name="age" id=">49" value=">49">
+        </fieldset>
+        <label for="profession">Profession: </label>
+        <input type="text" id="profession" name="profession">
+        <label for="country">Country: </label>
+        <select name="country" id="country">
+            <option value="Portugal">Portugal</option>
+            <option value="Spain">Spain</option>
+            <option value="England">England</option>
+        </select>
+        <fieldset>
+            <legend>Interests</legend>
+            <label for="photography">Photography</label>
+            <input type="checkbox" name="photography" id="photography">
+            <label for="music">Music</label>
+            <input type="checkbox" name="music" id="music">
+            <label for="cinema">Cinema</label>
+            <input type="checkbox" name="cinema" id="cinema">
+            <label for="computers">Computers</label>
+            <input type="checkbox" name="computers" id="computers">
+        </fieldset>
+        <label for="find">How did you find us: </label>
+        <textarea name="find" id="find" cols="50" rows="4"></textarea><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

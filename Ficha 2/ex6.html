@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <label for="name">User name: </label>
+        <input type="text" name="username" id="username"><br>
+        <label for="password">Password: </label>
+        <input type="password" name="pw" id="pw"><br>
+        <label for="gender">Gender: </label>
+        <input type="radio" name="gender" id="genderM" value="m">Male</input>
+        <input type="radio" name="gender" id="genderF" value="f">Female</input><br>
+        <label for="terms">Check to accept our terms: </label>
+        <input type="checkbox" name="terms" id="terms"><br>
+        <label for="referral">Where did you hear about us? </label>
+        <select name="referral" id="referral">
+            <option value="–Please choose–" value="0" selected disabled>–Please choose–</option>
+            <option value="Word of Mouth" value="wom">Word of Mouth</option>
+            <optgroup label="Search Engine”">
+                <option value="Google">Google</option>
+                <option value="Yahoo!">Yahoo!</option>
+                <option value="MSN">MSN</option>
+            </optgroup>
+        </select><br>
+        <label for="comments">Comments: </label><br>
+        <textarea name="comments" id="comments" cols="43" rows="5"></textarea><br>
+        <button type="reset">Reset</button>
+        <button type="sumit">Register</button>
+
+    </form>
+</body>
+</html>
